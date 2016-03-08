@@ -1,0 +1,93 @@
+#map-section {
+    padding: 0;
+}
+#map-section .container {
+    position: relative;
+}
+#map-pins {
+    position: absolute;
+    top: 50px;
+    width: 250px;
+    background: #fff;
+    opacity: 0.9;
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
+    filter: blur(0px);
+    z-index: 9;
+    border: 2px solid #fff;
+    padding: 10px;
+}
+#map-pins ul {
+    margin-bottom: 0;
+}
+#map-pins li {
+    padding: 2px 0;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+#map-pins li {
+    padding-left: 34px;
+    background-image: url(../images/map/Mimages/map/MapIcons-red1.png);
+    background-repeat: no-repeat;
+    height: 32px;
+    margin-bottom: 3px;
+}
+#map-pins li.bachelor {
+    background-position: 0 0px;
+}
+#map-pins li.bachelorette {
+    background-position: 0 -32px;
+}
+#map-pins li.wedding {
+    background-position: 0 -64px;
+}
+#map-pins li.weddingParty {
+    background-position: 0 -96px;
+}
+#map-pins li.airport {
+    background-position: 0 -127px;
+}
+#map-pins li.hotels {
+    background-position: 0 -160px;
+}
+#map-pins li.restoraunts {
+    background-position: 0 -192px;
+}
+#map-pins li.shopping {
+    background-position: 0 -224px;
+}
+#map-pins li.attractions {
+    background-position: 0 -255px;
+}
+#map-pins li.special {
+    background-position: 0 -288px;
+}
+#map {
+    width: 100%;
+    height: 480px;
+}
+#map img {
+    max-width: none;
+}
+#map .info_content h3 {
+    font-size: 18px;
+    margin-bottom: 2px;
+    line-height: 22px;
+}
+#map .info_content {
+    min-height: 100px;
+}
+
+
+
+
+
+#webpics-wrapper {
+}
+
+.form-img {
+    margin-left: auto;
+    margin-right: auto;
+}
