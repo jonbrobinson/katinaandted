@@ -87,7 +87,14 @@
 #webpics-wrapper {
 }
 
-.form-img {
-    margin-left: auto;
-    margin-right: auto;
+.img-responsive {
+    width: 100%;
+    height: auto;
 }
+
+.img-centered {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
