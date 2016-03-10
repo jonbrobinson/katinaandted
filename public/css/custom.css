@@ -82,7 +82,18 @@
 
 
 
+#img-lens {
+    max-width: 650px;
+}
 
+#img-paypal {
+    max-width: 300px;
+    margin-top: -50px;
+}
+
+#img-paypal-lg {
+    max-width: 400px;
+}
 
 #webpics-wrapper {
 }
